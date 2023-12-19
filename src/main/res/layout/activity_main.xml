@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Perimeter Calculator"
+            android:textSize="35sp"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bt1"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/geometric_shapes_rectangle" />
+
+            <ImageButton
+                android:id="@+id/bt2"
+                android:layout_width="140dp"
+                android:layout_height="126dp"
+                android:layout_marginLeft="100dp"
+                app:srcCompat="@drawable/images" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Perimeter of Rectangle"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Perimeter of Square"
+                android:layout_marginLeft="85dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bt3"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/geometric_shapes_triangle" />
+
+            <ImageButton
+                android:id="@+id/bt4"
+                android:layout_width="140dp"
+                android:layout_height="126dp"
+                android:layout_marginLeft="100dp"
+                tools:srcCompat="@drawable/geometric_shapes_parallelogram" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Perimeter of Triangle"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Perimeter of Parallelogram"
+                android:layout_marginLeft="80dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bt5"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/geometric_shapes_trapezoid" />
+
+            <ImageButton
+                android:id="@+id/bt6"
+                android:layout_width="140dp"
+                android:layout_height="126dp"
+                android:layout_marginLeft="100dp"
+                tools:srcCompat="@drawable/geometric_shapes_circle" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Perimeter of Trapezoid"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:text="   Perimeter of Circle"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bt7"
+                android:layout_width="143dp"
+                android:layout_height="174dp"
+                android:layout_marginLeft="128dp"
+                tools:srcCompat="@drawable/geometric_shapes_rhombus" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:text=" Perimeter of Rhombus"></TextView>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
